@@ -21,7 +21,7 @@
 
         }
 
-        // Uses one loop to swap elements O(n)
+        // Uses one loop to swap elements O(n), count variable retains last postion of found zero
         static void MoveZerosToBack(int[] arr)
         {
             int count = 0;
